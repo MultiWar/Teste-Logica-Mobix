@@ -10,4 +10,8 @@ Link do desafio: https://github.com/mobixsoftwarestudio/jobs/tree/master/first_c
 - Percebi que a ampulheta era dividida em 2 partes. A metade superior possuía sua maior parte preenchida com '#' e só algumas posições com ' '. A inferior era o contrário. Então, iniciei 2 linhas base: uma pra superior, completamente preenchida com '#', e outra pra inferior, completamente preenchida com ' '.
 - Após perceber isso, as coisas ficaram mais simples. Analisei as relações matemáticas entre as posições que estavam com ' ' nas linhas superiores, o número da própria linha e o número digitado pelo usuário. A mesma coisa com as inferiores, mas, como preciso preencher do meio pra fora, ao invés de preencher de fora pro meio, a conta ficou diferente (embora talvez desse pra aproveitar toda a lógica da metade superior, agora que paro pra pensar. Enfim, funciona)
 - Tive alguns erros. O que se destaca aqui é que eu estava usando '' ao invés de ' ', o que não faz a menor diferença no Array mas faz muita diferença após o join
-- A parte mais interessante foi a de analisar as relações matemáticas entre as partes envolvidas. Mas, claro, a que mais gostei foi ver funcionando
+- A parte mais interessante foi a de analisar as relações matemáticas entre as partes envolvidas. Mas, claro, a que mais gostei foi ver funcionando.
+
+Demorei 1h40min pra fazer o desafio (o horário não bate exatamente pois tive que dar uma pausa aos 3s pra fazer outras coisas, então o range tá um pouco diferente mas o relógio estava rolando durante todo o tempo que fiz o desafio)
+![Screenshot_936](https://user-images.githubusercontent.com/54380823/161909480-b284634b-7099-4ce4-9940-8dbae257763c.png)
+

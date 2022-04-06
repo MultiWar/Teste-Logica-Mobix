@@ -6,7 +6,6 @@ const rl = readline.createInterface({ input, output })
 rl.question('Insira um número maior ou igual a 20\n', function (resposta) {
     const numberOfLines = validateInput(resposta)
     drawHourglass(numberOfLines)
-    console.log(numberOfLines)
     rl.close()
 })
 

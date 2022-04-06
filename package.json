@@ -1,0 +1,23 @@
+{
+  "name": "logica_mobix",
+  "version": "1.0.0",
+  "description": "\"Teste de lógica da Mobix\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiWar/Teste-Logica-Mobix.git"
+  },
+  "author": "Nícolas Trevisol Quaresma de Moura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MultiWar/Teste-Logica-Mobix/issues"
+  },
+  "homepage": "https://github.com/MultiWar/Teste-Logica-Mobix#readme",
+  "dependencies": {
+    "readline-promise": "^1.0.5"
+  }
+}

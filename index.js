@@ -38,22 +38,20 @@ function drawHourglass(n) {
             continue
         }
 
-        // if(n % 2 === 0) {
-            if(i + 1 <= n / 2) {
-                // preenchendo da segunda posição do array até a i - 1 com ''
-                upperHalfLine.fill(' ', 1, i)
-                // preenchendo da posição n - 1 do array até penúltima com ''
-                upperHalfLine.fill(' ', n - i, n - 1)
+        if(i + 1 <= n / 2) {
+            // preenchendo da segunda posição do array até a i - 1 com ''
+            upperHalfLine.fill(' ', 1, i)
+            // preenchendo da posição n - 1 do array até penúltima com ''
+            upperHalfLine.fill(' ', n - i, n - 1)
 
-                console.log(upperHalfLine.join(''))
-                continue
-            }
-
-            lowerHalfLine[-i + n - 1] = '#'
-            lowerHalfLine[i] = '#'
-
-            console.log(lowerHalfLine.join(''))
+            console.log(upperHalfLine.join(''))
             continue
         }
-    // }
+
+        lowerHalfLine[-i + n - 1] = '#'
+        lowerHalfLine[i] = '#'
+
+        console.log(lowerHalfLine.join(''))
+        continue
+    }
 }

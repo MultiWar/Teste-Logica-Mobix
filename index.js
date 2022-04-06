@@ -24,7 +24,7 @@ function validateInput(userInput) {
 }
 
 function drawHourglass(n) {
-    for(let i = 0; i < n; i++) {
+    for(let i = 0; i < n; i++) { 
         // preenchendo a linha toda que será usada na metade superior da ampulheta com '#'
         const upperHalfLine = Array(n).fill('#')
         // criando a linha da metade inferior da ampulheta
